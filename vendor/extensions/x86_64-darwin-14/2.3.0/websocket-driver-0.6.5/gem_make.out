@@ -1,0 +1,15 @@
+current directory: /Users/coca/workspace/learn-rails/vendor/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/coca/.rvm/rubies/ruby-2.3.2/bin/ruby -r ./siteconf20170318-16997-17tv0f1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/coca/workspace/learn-rails/vendor/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/coca/workspace/learn-rails/vendor/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/coca/workspace/learn-rails/vendor/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20170318-16997-1xs8k1f
