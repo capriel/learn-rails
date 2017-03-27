@@ -1,3 +1,5 @@
+require 'digest/md5'
+
 # Class for Visitors of the webpage
 class Visitor
   include ActiveModel::Model
@@ -10,7 +12,8 @@ class Visitor
     mailchimp = Gibbon::Request.new(api_key:
                 Rails.application.secrets.mailchimp_api_key)
     list_id = Rails.application.secrets.mailchimp_list_id
-    result = mailchimp.lists(list_id).members.create(body:
+    md5_hashed_email = Digest::MD5.hexdigest(email)
+    result = mailchimp.lists(list_id).members(md5_hashed_email).upsert(body:
                                                        { email_address: email,
                                                          status: 'subscribed' })
     Rails.logger.info("Subscribed #{email} to MailChimp") if result
