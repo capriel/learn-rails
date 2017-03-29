@@ -20,6 +20,7 @@ group :development do
 end
 # learn-rails
 gem 'rails_serve_static_assets'
+gem 'rails_stdout_logging'
 gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'

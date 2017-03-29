@@ -195,6 +195,7 @@ DEPENDENCIES
   rails_12factor
   rails_layout
   rails_serve_static_assets
+  rails_stdout_logging
   sass-rails (~> 5.0)
   simple_form
   spring
