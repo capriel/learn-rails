@@ -21,7 +21,6 @@ end
 # learn-rails
 gem 'rails_serve_static_assets'
 gem 'rails_stdout_logging'
-gem 'rails_12factor'
 gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
