@@ -27,9 +27,8 @@ gem 'simple_form'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
-  gem 'sqlite3'
+  gem 'pg', '0.20.0'
 end
 group :production do
-  gem 'pg', '0.20.0'
   gem 'rails_12factor'
 end
