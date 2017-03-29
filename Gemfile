@@ -19,6 +19,7 @@ group :development do
   gem 'web-console'
 end
 # learn-rails
+gem 'rails_serve_static_assets'
 gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
