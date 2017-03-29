@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 ruby '2.3.2'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Rails defaults
